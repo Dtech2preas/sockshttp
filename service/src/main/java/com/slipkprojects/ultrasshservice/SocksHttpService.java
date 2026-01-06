@@ -50,7 +50,7 @@ public class SocksHttpService extends Service
 implements SkStatus.StateListener
 {
 	private static final String TAG = SocksHttpService.class.getSimpleName();
-	public static final String START_SERVICE = "com.slipkprojects.sockshttp:startTunnel";
+	public static final String START_SERVICE = "com.preas.vpn:startTunnel";
 
 	private static final int PRIORITY_MIN = -2;
     private static final int PRIORITY_DEFAULT = 0;
