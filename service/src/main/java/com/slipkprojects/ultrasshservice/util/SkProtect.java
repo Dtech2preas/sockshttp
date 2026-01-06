@@ -18,7 +18,7 @@ public class SkProtect {
 
 	private static final String TAG = SkProtect.class.getSimpleName();
 	
-	private static final String APP_BASE = "com.slipkprojects.sockshttp";
+	private static final String APP_BASE = "com.preas.vpn";
 	
 	// Assinatura da Google Play
 	//private static final String APP_SIGNATURE = "XbhYZ4Bz/9F4cWLIDMg0wl/+jl8=\n";

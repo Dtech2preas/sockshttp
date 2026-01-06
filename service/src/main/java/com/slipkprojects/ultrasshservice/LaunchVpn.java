@@ -38,7 +38,7 @@ import android.support.v7.app.AppCompatActivity;
 public class LaunchVpn extends AppCompatActivity
 	implements DialogInterface.OnCancelListener
 {
-	public static final String EXTRA_HIDELOG = "com.slipkprojects.sockshttp.showNoLogWindow";
+	public static final String EXTRA_HIDELOG = "com.preas.vpn.showNoLogWindow";
 	public static final String CLEARLOG = "clearlogconnect";
 	
 	private static final int START_VPN_PROFILE = 70;
@@ -160,7 +160,7 @@ public class LaunchVpn extends AppCompatActivity
 	}
 	
 	private void showLogWindow() {
-        Intent updateView = new Intent("com.slipkprojects.sockshttp:openLogs");
+        Intent updateView = new Intent("com.preas.vpn:openLogs");
 		LocalBroadcastManager.getInstance(this)
 			.sendBroadcast(updateView);
     }
